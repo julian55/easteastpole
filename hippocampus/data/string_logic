@@ -1,0 +1,28 @@
+#1. `and` `or`
+#2. repr()
+
+s0 = 'str0'
+s1 = 'str1'
+s2 = ''
+
+print(s0 and s1)
+print(s1 and s0)
+print(s0 and s2)
+print(s2 and s1)
+
+print(repr(s0 and s1))
+print(repr(s1 and s0))
+print(repr(s0 and s2))
+print(repr(s2 and s0))
+
+
+''' output
+str1
+str0
+
+
+'str1'
+'str0'
+''
+''
+'''
