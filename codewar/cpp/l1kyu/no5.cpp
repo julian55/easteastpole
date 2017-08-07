@@ -3,11 +3,12 @@
 // Require -
 //  count the number of integer within some range [start, end] that contains no digit of '5' in it.
 // Comment -
-//  problem from codewar, and I am just get bored and want to write some code.
+//  problem from codewar, and I just get bored and want to write some code.
 //
-#include <cassert>
 #include <cmath>
 #include <iostream>
+#include <cassert>
+
 using namespace std;
 int check(int start , int end) ;
 int dontGiveMeFive(int start, int end)
